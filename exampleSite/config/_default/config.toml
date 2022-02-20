@@ -1,4 +1,4 @@
-baseURL = "https://datagradus.netlifty.com"
+baseURL = "https://datagradus.netlify.app"
 disableLanguages = ["fr"]
 disqusShortname = "themefisher-template"
 googleAnalytics = ""
