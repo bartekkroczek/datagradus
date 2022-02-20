@@ -7,7 +7,7 @@ languageName = "En"
 paginate = "6"
 summaryLength = "20"
 theme = "geeky-hugo"
-title = "Geeky | Hugo Personal Blog Template"
+title = "DataGradus | Think Tank for Decision Making and Scientific Methodology"
 [caches.assets]
 dir = ":resourceDir/_gen"
 maxAge = "720h"
