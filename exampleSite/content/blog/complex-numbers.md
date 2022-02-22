@@ -25,7 +25,7 @@ $$ f(x) = x^2 + 1$$
 Of course, this equation has no solution on the plane of real numbers, which can 
 be easily checked by looking at the graph.
 
-{{< image src="images/post/complex-numbers/x2plus1.png" title="Plot of a fuction described above">}}
+{{< image src="images/post/complex-numbers/x2plus1.svg" title="Quadratic function plot, like in a formula above">}}
 
 But what happened when we forget about the traditional math and solve the equations above
 as \\(\sqrt{-1}\\) ? It turns out that adding such a quantity (usually denoted as \\(i\\) ) to the
@@ -68,17 +68,17 @@ pairs and algebraic representation is trivial. This form is useful for
 [**formal construction of complex numbers**](https://en.wikipedia.org/wiki/Complex_number#Formal_construction) and introduces an idea of representing a complex 
 number as a point in two-dimensional space, which leads to geometrical interpretation.
  
- {{< image src="images/post/complex-numbers/ab.png" >}}
+ {{< image src="images/post/complex-numbers/ab.png" title="Point (a, b) in a Real x Imaginary Cartesian space">}}
  
  #### Algebraic operations have very nice interpretations on the Cartesian plane.
  
  * Addition follows the known parallelogram rule for vectors
  
- {{< image src="images/post/complex-numbers/add.png" >}}
+ {{< image src="images/post/complex-numbers/add.png" title="Graphics form of adding rule">}}
  
  * Multiplying by \\(i\\) is a 90-degree (\\(\frac{\pi}{2}\\)) rotation.
  
- {{< image src="images/post/complex-numbers/circle.png" >}}
+ {{< image src="images/post/complex-numbers/circle.png" title="Rotation as multiplication">}}
  
  Note that from this perspective \\( i^2 = -1 \\) makes p/imaerfect sense.
  
@@ -88,7 +88,7 @@ number as a point in two-dimensional space, which leads to geometrical interpret
  ### Polar coordinates
  
  The rotation angle announced above is written as \\( \theta \\), and the scaling factor is called \\(r\\).
- {{< image src="images/post/complex-numbers/ang.png" >}}
+ {{< image src="images/post/complex-numbers/ang.png" title="Polar coordinates to point convertion">}}
  
  The relationship between the algebraic and trigonometric notations is only slightly more 
  complicated, and requires some basic knowledge of trigonometry.
@@ -155,7 +155,7 @@ $$\sum_{n=0} ^ {\infty} f^{(n)}(0) \frac {x^n}{n!} =  f(0)+\frac {f'(0)}{1!} (x)
 What happens when we try to expand the sine and cosine functions into a Maclaurin series?
 Let’s start with calculating derivatives:
 
-{{< image src="images/post/complex-numbers/prims.png" >}}
+{{< image src="images/post/complex-numbers/prims.png" title="Sin and Cos derivatives">}}
 
 We can see that the cycle repeats itself from the fourth derivative. 
 Expanding the sine and cosine functions into the Taylor series looks like this:
