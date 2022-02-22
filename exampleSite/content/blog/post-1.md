@@ -4,7 +4,7 @@ description: "meta description"
 image: "images/post/complex-numbers/circle.svg"
 date: 2022-01-24T18:19:25+06:00
 categories: ["math", "eng"]
-type: "regular" # available types: [featured/regular]
+type: "featured" # available types: [featured/regular]
 draft: false
 ---
 
@@ -31,13 +31,13 @@ be easily checked by looking at the graph.
 But what happened when we forget about the traditional math and solve the equations above
 as $\sqrt{-1}$? It turns out that adding such a quantity (usually denoted as $i$) to the
 rational numbers leads to the creation of a numerical system full of interesting and 
-useful properties, like a **field structure** [^1], which informally means that all classical 
+useful properties, like a [**field structure**](https://en.wikipedia.org/wiki/Complex_number#Relations_and_operations) , which informally means that all classical 
 algebraic operations are allowed.
 
-What’s more this field is **algebraically closed**[^2] which - in relation to complex numbers 
+What’s more this field is [**algebraically closed**](https://en.wikipedia.org/wiki/Algebraically_closed_field) which - in relation to complex numbers 
 - means that 
 **every non-constant single-variable polynomial with complex coefficients has at least one complex root**. In the world of complex numbers, any equation is solvable! 
-This statement is so important that we call this **Fundamental Theorem of Algebra**[^3] 
+This statement is so important that we call this [**Fundamental Theorem of Algebra**](https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra) 
 
 ## Complex number representation
 
@@ -66,7 +66,7 @@ This form allows for convenient counting using complex numbers.
 Complex numbers may be introduced as the set of pairs of real numbers, $(a, b) \in \mathbb{R}^2$.
 Please note, that this is this same $a$ and $b$ like in $z = a+bi$, so the relation between 
 pairs and algebraic representation is trivial. This form is useful for
-**formal construction of complex numbers**[^4] and introduces an idea of representing a complex 
+[**formal construction of complex numbers**](https://en.wikipedia.org/wiki/Complex_number#Formal_construction) and introduces an idea of representing a complex 
 number as a point in two-dimensional space, which leads to geometrical interpretation.
  
  {{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/ab.svg" alt="Point (a, b) in a Real x Imaginary Cartesian space" >}}
@@ -136,7 +136,7 @@ paragraph will be about.
 
 ### Exponential form
 
-We need to start with a few words about **Taylor series**[^5].
+We need to start with a few words about [**Taylor series**](https://en.wikipedia.org/wiki/Taylor_series).
 
 It’s a tool for expressing any function is some a form of polynomial
 
@@ -149,7 +149,7 @@ $$ \sum_{n=0} ^ {\infty} \frac {f^{(n)}(a)}{n!} (x-a)^{n} $$
 When we use a finite number of elements of the sum, the taylor series becomes an approximation
 of the original function around point $a$. The closer to point $a$ is the value of the function 
 we calculate, the smaller the error of the approximation will be. Taylor series expressing 
-with $a = 0$ is called **Maclaurin series**[^6]. 
+with $a = 0$ is called [**Maclaurin series**](https://en.wikipedia.org/wiki/Colin_Maclaurin#Contributions_to_mathematics). 
 
 $$\sum_{n=0} ^ {\infty} f^{(n)}(0) \frac {x^n}{n!} =  f(0)+\frac {f'(0)}{1!} (x)+ \frac{f''(0)}{2!} (x)^2+\frac{f'''(0)}{3!}(x)^3+ \cdots$$
 
@@ -189,7 +189,7 @@ If that wasn’t neat enough if we substitute $\pi$ for $\theta$ we get:
 
 $$ e^{\pi i } +1 = 0$$ 
 
-What we call the **Euler’s identity**[^7], which is widely recognized as one of the most 
+What we call the [**Euler’s identity**](https://en.wikipedia.org/wiki/Euler%27s_identity), which is widely recognized as one of the most 
 beautiful equations in all of mathematics.
 
 Finally, we have to go back to the trigonometric form of complex numbers
@@ -200,13 +200,3 @@ $$ z = a + bi = r cos (\theta) + i r sin (\theta) = r \big ( cos (\theta) + i si
 
 I believe that understanding the relationship between the different forms of complex numbers is 
 crucial to understanding the technical details behind the **Fourier Transform**. 
-
-## References
-[^1]: https://en.wikipedia.org/wiki/Complex_number#Relations_and_operations 
-[^2]: https://en.wikipedia.org/wiki/Algebraically_closed_field
-[^3]: https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra
-[^4]: https://en.wikipedia.org/wiki/Complex_number#Formal_construction
-[^5]: https://en.wikipedia.org/wiki/Taylor_series
-[^6]: https://en.wikipedia.org/wiki/Colin_Maclaurin#Contributions_to_mathematics
-[^7]: https://en.wikipedia.org/wiki/Euler%27s_identity
-
