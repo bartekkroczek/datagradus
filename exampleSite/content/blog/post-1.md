@@ -25,7 +25,7 @@ $$ f(x) = x^2 + 1$$
 Of course, this equation has no solution on the plane of real numbers, which can 
 be easily checked by looking at the graph.
 
-{{< image "images/post/complex-numbers/x2plus1.png" >}}
+{{< figure src="images/post/complex-numbers/x2plus1.png" title="Plot of a fuction described above">}}
 
 But what happened when we forget about the traditional math and solve the equations above
 as \\(\sqrt{-1}\\) ? It turns out that adding such a quantity (usually denoted as \\(i\\) ) to the
