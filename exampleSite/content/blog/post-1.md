@@ -8,7 +8,7 @@ type: "featured" # available types: [featured/regular]
 draft: false
 ---
 
-
+<!---
 ## Disclaimer
 The purpose of this article is to briefly and intuitively recall the most important
 properties of complex numbers. These concepts are necessary to understand the Fourier
@@ -200,3 +200,5 @@ $$ z = a + bi = r cos (\theta) + i r sin (\theta) = r \big ( cos (\theta) + i si
 
 I believe that understanding the relationship between the different forms of complex numbers is 
 crucial to understanding the technical details behind the **Fourier Transform**. 
+
+--->
