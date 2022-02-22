@@ -1,14 +1,13 @@
 ---
 title: "Five faces of complex numbers"
 description: "Short and fun intro to complex numbers algebra"
+image: "images/post/complex-numbers.png"
 date: 2022-01-24T18:19:25+06:00
 categories: ["math", "eng"]
 type: "featured" # available types: [featured/regular]
 draft: false
 ---
 
-<!---
-image: "images/post/complex-numbers/circle.svg"
 ## Disclaimer
 The purpose of this article is to briefly and intuitively recall the most important
 properties of complex numbers. These concepts are necessary to understand the Fourier
@@ -26,7 +25,7 @@ $$ f(x) = x^2 + 1$$
 Of course, this equation has no solution on the plane of real numbers, which can 
 be easily checked by looking at the graph.
 
-{{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/x2plus1.svg" alt="Quadratic function plot, like in a formula above" >}}
+{{< svg "assets/images/post/complex-numbers/x2plus1.svg" >}}
 
 But what happened when we forget about the traditional math and solve the equations above
 as $\sqrt{-1}$? It turns out that adding such a quantity (usually denoted as $i$) to the
@@ -69,17 +68,18 @@ pairs and algebraic representation is trivial. This form is useful for
 [**formal construction of complex numbers**](https://en.wikipedia.org/wiki/Complex_number#Formal_construction) and introduces an idea of representing a complex 
 number as a point in two-dimensional space, which leads to geometrical interpretation.
  
- {{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/ab.svg" alt="Point (a, b) in a Real x Imaginary Cartesian space" >}}
+ {{< svg "assets/images/post/complex-numbers/ab.svg" >}}
  
  #### Algebraic operations have very nice interpretations on the Cartesian plane.
  
  * Addition follows the known parallelogram rule for vectors
  
- {{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/add.svg" alt="Graphics form of adding rule" >}}
+ {{< svg "assets/images/post/complex-numbers/add.svg" >}}
  
  * Multiplying by $i$ is a 90-degree ($\frac{\pi}{2}$) rotation.
  
- {{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/circle.svg" alt="Rotation as multiplication" >}}
+ {{< svg "assets/images/post/complex-numbers/circle.svg" >}}
+ 
  Note that from this perspective $ i^2 = -1$ makes perfect sense.
  
  Any other multiplication is just a rotation in point $(0,0)$ by some angle (described in the 
@@ -88,8 +88,7 @@ number as a point in two-dimensional space, which leads to geometrical interpret
  ### Polar coordinates
  
  The rotation angle announced above is written as $\theta$, and the scaling factor is called $r$.
-  {{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/ang.svg" alt="Polar coordinates to point convertion" >}}
-  
+ {{< svg "assets/images/post/complex-numbers/ang.svg" >}}
  
  The relationship between the algebraic and trigonometric notations is only slightly more 
  complicated, and requires some basic knowledge of trigonometry.
@@ -156,8 +155,7 @@ $$\sum_{n=0} ^ {\infty} f^{(n)}(0) \frac {x^n}{n!} =  f(0)+\frac {f'(0)}{1!} (x)
 What happens when we try to expand the sine and cosine functions into a Maclaurin series?
 Let’s start with calculating derivatives:
 
-
-{{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/prims.svg" alt="Sin and Cos derivatives" >}}
+{{< svg "assets/images/post/complex-numbers/prims.svg" >}}
 
 We can see that the cycle repeats itself from the fourth derivative. 
 Expanding the sine and cosine functions into the Taylor series looks like this:
@@ -201,4 +199,3 @@ $$ z = a + bi = r cos (\theta) + i r sin (\theta) = r \big ( cos (\theta) + i si
 I believe that understanding the relationship between the different forms of complex numbers is 
 crucial to understanding the technical details behind the **Fourier Transform**. 
 
---->

@@ -8,8 +8,6 @@ type: "featured" # available types: [featured/regular]
 draft: false
 ---
 
-content 
-
 ## Disclaimer
 The purpose of this article is to briefly and intuitively recall the most important
 properties of complex numbers. These concepts are necessary to understand the Fourier
@@ -27,10 +25,10 @@ $$ f(x) = x^2 + 1$$
 Of course, this equation has no solution on the plane of real numbers, which can 
 be easily checked by looking at the graph.
 
-{{< svg "assets/images/post/complex-numbers/x2plus1.svg" >}}
+{{< image "assets/images/post/complex-numbers/x2plus1.png" >}}
 
 But what happened when we forget about the traditional math and solve the equations above
-as $\sqrt{-1}$? It turns out that adding such a quantity (usually denoted as $i$) to the
+as \\(\sqrt{-1}\\) ? It turns out that adding such a quantity (usually denoted as \\(i\\) ) to the
 rational numbers leads to the creation of a numerical system full of interesting and 
 useful properties, like a [**field structure**](https://en.wikipedia.org/wiki/Complex_number#Relations_and_operations) , which informally means that all classical 
 algebraic operations are allowed.
@@ -47,8 +45,8 @@ different properties.
 
 ### Algebraic (canonical) form
 
-Let’s define a complex number as $z = a + bi$ where, $a, b \in \mathbb{R}$ (are rational) and 
-$i = \sqrt{-1}$ as described above.
+Let’s define a complex number as \\(z = a + bi\\) where, \\(a, b \in \mathbb{R}\\) (are rational) and 
+\\(i = \sqrt{-1}\\) as described above.
 
 Basic algebraic operations look as follow:
 
@@ -64,47 +62,47 @@ This form allows for convenient counting using complex numbers.
 
 ### Ordered pairs
 
-Complex numbers may be introduced as the set of pairs of real numbers, $(a, b) \in \mathbb{R}^2$.
-Please note, that this is this same $a$ and $b$ like in $z = a+bi$, so the relation between 
+Complex numbers may be introduced as the set of pairs of real numbers, \\( (a, b) \in \mathbb{R}^2\\).
+Please note, that this is this same \\(a\\) and \\(b\\) like in \\(z = a+bi), so the relation between 
 pairs and algebraic representation is trivial. This form is useful for
 [**formal construction of complex numbers**](https://en.wikipedia.org/wiki/Complex_number#Formal_construction) and introduces an idea of representing a complex 
 number as a point in two-dimensional space, which leads to geometrical interpretation.
  
- {{< svg "assets/images/post/complex-numbers/ab.svg" >}}
+ {{< image "assets/images/post/complex-numbers/ab.png" >}}
  
  #### Algebraic operations have very nice interpretations on the Cartesian plane.
  
  * Addition follows the known parallelogram rule for vectors
  
- {{< svg "assets/images/post/complex-numbers/add.svg" >}}
+ {{< image "assets/images/post/complex-numbers/add.png" >}}
  
- * Multiplying by $i$ is a 90-degree ($\frac{\pi}{2}$) rotation.
+ * Multiplying by \\(i\\) is a 90-degree (\\(\frac{\pi}{2}\\)) rotation.
  
- {{< svg "assets/images/post/complex-numbers/circle.svg" >}}
+ {{< image "assets/images/post/complex-numbers/circle.png" >}}
  
- Note that from this perspective $ i^2 = -1$ makes perfect sense.
+ Note that from this perspective \\( i^2 = -1 \\) makes perfect sense.
  
  Any other multiplication is just a rotation in point $(0,0)$ by some angle (described in the 
  next paragraph) and rescaling (stretch or shorten) of the vector.
  
  ### Polar coordinates
  
- The rotation angle announced above is written as $\theta$, and the scaling factor is called $r$.
- {{< svg "assets/images/post/complex-numbers/ang.svg" >}}
+ The rotation angle announced above is written as \\( \theta \\), and the scaling factor is called \\(r\\).
+ {{< image "assets/images/post/complex-numbers/ang.png" >}}
  
  The relationship between the algebraic and trigonometric notations is only slightly more 
  complicated, and requires some basic knowledge of trigonometry.
  
- For $z = a + bi$ $r$ is calculated using the Pythagorean theorem.
+ For \\(z = a + bi\\) \\(r\\) is calculated using the Pythagorean theorem.
 
 $$ r = \sqrt{a^2 + b^2} $$
 
-In turn, $\theta$ is just a definition of the inverse of the tangent ($arctg$)
+In turn, \\(\theta\\) is just a definition of the inverse of the tangent (\\(arctg\\))
 
 $$ \theta = arctg(\frac{b}{a}) $$
 
 Importantly, note that again we are dealing with a pair of values, so the correct notation 
-is: $z = (r, \theta)$
+is: \\(z = (r, \theta)\\)
 
  This character is convenient because it makes multiplication so much easier:
  
@@ -115,9 +113,9 @@ is: $z = (r, \theta)$
  
 ### Trigonometric representation
 But how do you express a complex number using polar coordinates but as one number 
-( not a pair, analogus to  $z = a + bi$) ?
+( not a pair, analogus to  \\(z = a + bi\\)) ?
 Once again, trigonometry comes in handy, namely the definition of 
-the sine and cosine functions.</p>
+the sine and cosine functions.
 
 By definition:
 
@@ -127,7 +125,7 @@ so
 
 $$a = r cos(\theta) , b = r sin(\theta)$$
 
-Substituting the values calculated above into the equation $z = a + bi$ we get:
+Substituting the values calculated above into the equation \\(z = a + bi\\) we get:
 
 $$z = a + bi = r cos (\theta) + i r sin (\theta) = r \big ( cos (\theta) + i sin (\theta) \big )$$
 
@@ -148,16 +146,16 @@ or in short:
 $$ \sum_{n=0} ^ {\infty} \frac {f^{(n)}(a)}{n!} (x-a)^{n} $$
 
 When we use a finite number of elements of the sum, the taylor series becomes an approximation
-of the original function around point $a$. The closer to point $a$ is the value of the function 
+of the original function around point \\(a\\). The closer to point \\(a\\) is the value of the function 
 we calculate, the smaller the error of the approximation will be. Taylor series expressing 
-with $a = 0$ is called [**Maclaurin series**](https://en.wikipedia.org/wiki/Colin_Maclaurin#Contributions_to_mathematics). 
+with \\(a = 0\\) is called [**Maclaurin series**](https://en.wikipedia.org/wiki/Colin_Maclaurin#Contributions_to_mathematics). 
 
 $$\sum_{n=0} ^ {\infty} f^{(n)}(0) \frac {x^n}{n!} =  f(0)+\frac {f'(0)}{1!} (x)+ \frac{f''(0)}{2!} (x)^2+\frac{f'''(0)}{3!}(x)^3+ \cdots$$
 
 What happens when we try to expand the sine and cosine functions into a Maclaurin series?
 Let’s start with calculating derivatives:
 
-{{< svg "assets/images/post/complex-numbers/prims.svg" >}}
+{{< image "assets/images/post/complex-numbers/prims.png" >}}
 
 We can see that the cycle repeats itself from the fourth derivative. 
 Expanding the sine and cosine functions into the Taylor series looks like this:
@@ -181,11 +179,11 @@ and take $i$ in front of the parenthesis $\cdots$
 
 $$ \bigg(1 - \frac{\theta^2}{2}  + \frac{\theta^4}{4!} - \frac{\theta^6}{6!}+  \dots \bigg ) + i \bigg (\theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \frac{\theta^7}{7!} +\dots \bigg ) $$
 
-$\cdots$ it turns out that the following equality is true:
+\\(\cdots\\) it turns out that the following equality is true:
 
 $$ e^{i\theta} = cos(\theta) + i sin(\theta) $$ 
 
-If that wasn’t neat enough if we substitute $\pi$ for $\theta$ we get:
+If that wasn’t neat enough if we substitute $\pi$ for \\(\theta\\) we get:
 
 $$ e^{\pi i } +1 = 0$$ 
 
