@@ -69,14 +69,17 @@ pairs and algebraic representation is trivial. This form is useful for
 **formal construction of complex numbers**[^4] and introduces an idea of representing a complex 
 number as a point in two-dimensional space, which leads to geometrical interpretation.
  
- ![Point (a, b) in a Real x Imaginary Cartesian space](images/post/complex-numbers/ab.svg)
+ {{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/ab.svg" alt="Point (a, b) in a Real x Imaginary Cartesian space" >}}
  
  #### Algebraic operations have very nice interpretations on the Cartesian plane.
  
  * Addition follows the known parallelogram rule for vectors
- ![Graphics form of adding rule](img/add.svg)
+ 
+ {{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/add.svg" alt="Graphics form of adding rule" >}}
+ 
  * Multiplying by $i$ is a 90-degree ($\frac{\pi}{2}$) rotation.
- ![Rotation as multiplication](img/circle.svg)
+ 
+ {{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/circle.svg" alt="Rotation as multiplication" >}}
  Note that from this perspective $ i^2 = -1$ makes perfect sense.
  
  Any other multiplication is just a rotation in point $(0,0)$ by some angle (described in the 
@@ -85,7 +88,8 @@ number as a point in two-dimensional space, which leads to geometrical interpret
  ### Polar coordinates
  
  The rotation angle announced above is written as $\theta$, and the scaling factor is called $r$.
- ![Polar coordinates to point convertion](images/post/complex-numbers/ang.svg)
+  {{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/ang.svg" alt="Polar coordinates to point convertion" >}}
+  
  
  The relationship between the algebraic and trigonometric notations is only slightly more 
  complicated, and requires some basic knowledge of trigonometry.
