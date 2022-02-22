@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "meta description"
+description: "Piszemy o metodzie naukowej i procesie podejmowania decyzji"
 draft: false
 ---
 
