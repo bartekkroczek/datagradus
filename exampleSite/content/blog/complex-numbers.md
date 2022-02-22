@@ -25,7 +25,7 @@ $$ f(x) = x^2 + 1$$
 Of course, this equation has no solution on the plane of real numbers, which can 
 be easily checked by looking at the graph.
 
-{{< figure src="images/post/complex-numbers/x2plus1.png" title="Plot of a fuction described above">}}
+{{< image "images/post/complex-numbers/x2plus1.png" title="Plot of a fuction described above">}}
 
 But what happened when we forget about the traditional math and solve the equations above
 as \\(\sqrt{-1}\\) ? It turns out that adding such a quantity (usually denoted as \\(i\\) ) to the
@@ -63,32 +63,32 @@ This form allows for convenient counting using complex numbers.
 ### Ordered pairs
 
 Complex numbers may be introduced as the set of pairs of real numbers, \\( (a, b) \in \mathbb{R}^2\\).
-Please note, that this is this same \\(a\\) and \\(b\\) like in \\(z = a+bi), so the relation between 
+Please note, that this is this same \\(a\\) and \\(b\\) like in \\(z = a+bi\\)), so the relation between 
 pairs and algebraic representation is trivial. This form is useful for
 [**formal construction of complex numbers**](https://en.wikipedia.org/wiki/Complex_number#Formal_construction) and introduces an idea of representing a complex 
 number as a point in two-dimensional space, which leads to geometrical interpretation.
  
- {{< figure src="images/post/complex-numbers/ab.png" >}}
+ {{< image "images/post/complex-numbers/ab.png" >}}
  
  #### Algebraic operations have very nice interpretations on the Cartesian plane.
  
  * Addition follows the known parallelogram rule for vectors
  
- {{< figure  src="images/post/complex-numbers/add.png" >}}
+ {{< image "images/post/complex-numbers/add.png" >}}
  
  * Multiplying by \\(i\\) is a 90-degree (\\(\frac{\pi}{2}\\)) rotation.
  
- {{< figure  src="images/post/complex-numbers/circle.png" >}}
+ {{< image "images/post/complex-numbers/circle.png" >}}
  
  Note that from this perspective \\( i^2 = -1 \\) makes p/imaerfect sense.
  
- Any other multiplication is just a rotation in point $(0,0)$ by some angle (described in the 
+ Any other multiplication is just a rotation in point \\( (0,0) \\) by some angle (described in the 
  next paragraph) and rescaling (stretch or shorten) of the vector.
  
  ### Polar coordinates
  
  The rotation angle announced above is written as \\( \theta \\), and the scaling factor is called \\(r\\).
- {{< figure  src="images/post/complex-numbers/ang.png" >}}
+ {{< image "images/post/complex-numbers/ang.png" >}}
  
  The relationship between the algebraic and trigonometric notations is only slightly more 
  complicated, and requires some basic knowledge of trigonometry.
@@ -155,7 +155,7 @@ $$\sum_{n=0} ^ {\infty} f^{(n)}(0) \frac {x^n}{n!} =  f(0)+\frac {f'(0)}{1!} (x)
 What happens when we try to expand the sine and cosine functions into a Maclaurin series?
 Let’s start with calculating derivatives:
 
-{{< figure  src="images/post/complex-numbers/prims.png" >}}
+{{< image "images/post/complex-numbers/prims.png" >}}
 
 We can see that the cycle repeats itself from the fourth derivative. 
 Expanding the sine and cosine functions into the Taylor series looks like this:
@@ -170,20 +170,20 @@ Let’s recall the definition of the exponential function
 $$ e^x := \sum_{k = 0}^{\infty} \frac{x^k}{k!} = 1 + x + \frac{x^2}{2} + \frac{x^3}{3!} + \frac{x^4}{4!} + \cdots $$
 
 Note that this definition looks similar to taylor series expansions!
-If we substitute $x = i\theta$, even more similarities arise.
+If we substitute \\(x = i\theta\)), even more similarities arise.
 
 $$ e^{i\theta} =  1 + i\theta + \frac{(i\theta)^2}{2} + \frac{(i\theta)^3}{3!} + \frac{(i\theta)^4}{4!} + \cdots = 1 + i\theta - \frac{\theta^2}{2} -i \frac{\theta^3}{3!} + \frac{\theta^4}{4!} + \cdots $$ 
 
 When we group the elements of the sum so that all real and all imaginary are next to each other 
-and take $i$ in front of the parenthesis $\cdots$
+and take \\(i\\) in front of the parenthesis ...
 
 $$ \bigg(1 - \frac{\theta^2}{2}  + \frac{\theta^4}{4!} - \frac{\theta^6}{6!}+  \dots \bigg ) + i \bigg (\theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \frac{\theta^7}{7!} +\dots \bigg ) $$
 
-\\(\cdots\\) it turns out that the following equality is true:
+... it turns out that the following equality is true:
 
 $$ e^{i\theta} = cos(\theta) + i sin(\theta) $$ 
 
-If that wasn’t neat enough if we substitute $\pi$ for \\(\theta\\) we get:
+If that wasn’t neat enough if we substitute \\(\pi\\) for \\(\theta\\) we get:
 
 $$ e^{\pi i } +1 = 0$$ 
 
