@@ -10,3 +10,4 @@ draft: false
 
 content 
 
+{{< svg "images/post/complex-numbers/x2plus1.svg" >}}
