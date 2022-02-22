@@ -16,7 +16,6 @@ transform, which I deal with in my other posts. However, please note that intuit
 is more important to me than puritanism, which may lead to shortcuts uncomfortable for
 theoretical mathematicians.
 
-{{% toc %}} 
 
 ## A simple question that leads to a complex problem
 It’s usually doesn’t works that way, but the story of the complex number is driven 
