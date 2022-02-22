@@ -1,7 +1,6 @@
 ---
 title: "Five faces of complex numbers"
 description: "Short and fun intro to complex numbers algebra"
-image: "images/post/complex-numbers/circle.svg"
 date: 2022-01-24T18:19:25+06:00
 categories: ["math", "eng"]
 type: "featured" # available types: [featured/regular]
@@ -9,6 +8,7 @@ draft: false
 ---
 
 <!---
+image: "images/post/complex-numbers/circle.svg"
 ## Disclaimer
 The purpose of this article is to briefly and intuitively recall the most important
 properties of complex numbers. These concepts are necessary to understand the Fourier
