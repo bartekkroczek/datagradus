@@ -26,7 +26,7 @@ $$ f(x) = x^2 + 1$$
 Of course, this equation has no solution on the plane of real numbers, which can 
 be easily checked by looking at the graph.
 
-![Quadratic function plot, like in a formula above](img/x2plus1.svg)
+{{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/x2plus1.svg" alt="Quadratic function plot, like in a formula above" >}}
 
 But what happened when we forget about the traditional math and solve the equations above
 as $\sqrt{-1}$? It turns out that adding such a quantity (usually denoted as $i$) to the
@@ -153,7 +153,6 @@ What happens when we try to expand the sine and cosine functions into a Maclauri
 Let’s start with calculating derivatives:
 
 
-images/post/complex-numbers
 {{< image title="" w="" h="" o="webp q100" p="center" c="rounded" src="images/post/complex-numbers/prims.svg" alt="Sin and Cos derivatives" >}}
 
 We can see that the cycle repeats itself from the fourth derivative. 
