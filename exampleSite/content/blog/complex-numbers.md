@@ -68,17 +68,17 @@ pairs and algebraic representation is trivial. This form is useful for
 [**formal construction of complex numbers**](https://en.wikipedia.org/wiki/Complex_number#Formal_construction) and introduces an idea of representing a complex 
 number as a point in two-dimensional space, which leads to geometrical interpretation.
  
- {{< image "images/post/complex-numbers/ab.png" >}}
+ {{< image src="images/post/complex-numbers/ab.png" >}}
  
  #### Algebraic operations have very nice interpretations on the Cartesian plane.
  
  * Addition follows the known parallelogram rule for vectors
  
- {{< image "images/post/complex-numbers/add.png" >}}
+ {{< src=image "images/post/complex-numbers/add.png" >}}
  
  * Multiplying by \\(i\\) is a 90-degree (\\(\frac{\pi}{2}\\)) rotation.
  
- {{< image "images/post/complex-numbers/circle.png" >}}
+ {{< src=image "images/post/complex-numbers/circle.png" >}}
  
  Note that from this perspective \\( i^2 = -1 \\) makes p/imaerfect sense.
  
