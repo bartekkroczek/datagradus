@@ -46,12 +46,12 @@ preloader = "" # use jpg, png, svg or gif format.
 # Banner
 [banner]
 enable = true
-title_large = "Welcome **!**"
-title_small = "to Jhon Bravo Blog"
+title_large = "Data**Gradus**"
+title_small = "We turn the data into knowledge"
 image = "images/banner.png"
 background_image = "/images/banner-bg-shape.svg"
-content = "Are Developer and recently started your own business Already made website to ensure presence wants to develop."
-button_label = "Know About Me"
+content = "DataGradus is a think thank dedicated to everything related to human decision-making process. Our mission is to popularize the scientific method, skeptical reasoning, and domain knowledge among decision makers at all levels. We are rooted in both business and academia and eager to see what this connection will bring. "
+button_label = "Know About Us"
 button_link = "about/"
 
 # Advertise
