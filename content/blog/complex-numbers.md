@@ -2,8 +2,8 @@
 title: "Five faces of complex numbers"
 description: "Short and fun intro to complex numbers algebra"
 image: "images/post/complex-numbers.png"
-date: 2022-01-24T18:19:25+06:00
-categories: ["math", "eng"]
+date: 2022-01-24
+categories: ["math"]
 type: "featured" # available types: [featured/regular]
 draft: false
 ---
