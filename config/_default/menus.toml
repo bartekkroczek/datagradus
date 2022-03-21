@@ -51,6 +51,6 @@ url = "contact/"
 weight = 3
 
 [[footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
+name = "Copyright Policy"
+url = "copy-policy/"
 weight = 4

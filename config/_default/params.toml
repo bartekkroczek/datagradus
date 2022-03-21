@@ -15,11 +15,11 @@ description = "This is meta description"
 author = "DataGradus Team"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@email.com"
+#address = "9567 Turner Trace Apt. BC C3G8A4"
+#mobile = "+211234565523"
+#email = "info@email.com"
 # contact form action
-contact_form_action = "#mjvlozgd" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/mjvlozgd" # contact form works with https://formspree.io
 # search
 search = true
 
@@ -28,11 +28,11 @@ featured_post_title = "Featured Post"
 recent_post_title = "Recent Post"
 mainSections = ["blog"]
 # about widget content
-about_widget_content = "Lorem ipsum dolor sit amet, conse tfctetur adipiscing elit. Vel in in donec iaculis tempasus odio nunc laoreet . Libero ullam rgscorper."
+about_widget_content = "We're making scientific knowledge accessible for anyone. ​Most of the questions that interest you have already been answered by science. We will help you reach them."
 # footer content
-footer_content = "Lorem ipsum dolor sit amt, conse adip iscing. donec iaculis tempasus laoreet. Libero ullam rgscper."
+footer_content = "DataGradus - A place where decision-making meets skeptical thinking."
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "DataGradus Team: [Bartek Kroczek](https://bartekkroczek.github.io/) &  [Konrad Sak](https://www.linkedin.com/in/conrad-sak-11576011/)"
 
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
 custom_script= ""
@@ -57,7 +57,7 @@ button_link = "about/"
 # Advertise
 [advertisement]
 image = "images/promotion.png"
-link = "https://gethugothemes.com/"
+link = "https://www.buymeacoffee.com/datagradus"
 
 # cookies
 [cookies]
@@ -76,32 +76,32 @@ sidebar = ["about", "categories", "recent-post", "newsletter"]
 [subscription]
 enable = false
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+mailchimp_form_action = "https://app.us14.list-manage.com/subscribe/post?u=6de864f831035c8603df385ab&amp;id=87e533c60f" # replace this url with yours
+mailchimp_form_name = "b_6de864f831035c8603df385ab_87e533c60f" # replace this code with yours
 
 
 ############################# social site ########################
-[[social]]
-title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+#[[social]]
+#title = "facebook"
+#icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+#link = "#"
 
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "#"
+#[[social]]
+#title = "twitter"
+#icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+#link = "#"
 
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+#[[social]]
+#title = "instagram"
+#icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+#link = "#"
 
-[[social]]
-title = "github"
-icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+#[[social]]
+#title = "github"
+#icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+#link = "#"
 
-[[social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+#[[social]]
+#title = "linkedin"
+#icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+#link = "#"
