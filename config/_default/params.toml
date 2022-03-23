@@ -32,7 +32,7 @@ about_widget_content = "We're making scientific knowledge accessible for anyone.
 # footer content
 footer_content = "DataGradus - A place where decision-making meets skeptical thinking."
 # copyright
-copyright = "DataGradus Team: [Bartek Kroczek](https://bartekkroczek.github.io/) &  [Konrad Sak](https://www.linkedin.com/in/conrad-sak-11576011/)"
+copyright = "DataGradus Team: [Bartek Kroczek](https://bartekkroczek.github.io/) &  [Conrad Sak](https://www.linkedin.com/in/conrad-sak-11576011/)"
 
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
 custom_script= ""
